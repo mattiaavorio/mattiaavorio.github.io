@@ -172,3 +172,25 @@ body {
 a:hover, .ombra:hover {
   cursor: url('img/cursore2.png'), auto;
 }
+
+/* Navigation cursor and hover */
+body {
+  cursor: url('img/cursore.png'), auto;
+}
+
+a:hover, .ombra:hover {
+  cursor: url('img/cursore2.png'), auto;
+}
+
+/* Ingrandire bottoni di navigazione iniziali */
+.dropbtn-law {
+  font-size: 24px !important;
+  font-weight: 700;
+}
+
+/* Ingrandire ancora "Add me on LinkedIn" */
+a[href*='linkedin'] {
+  font-size: 42px;
+  font-weight: bold;
+  color: #2ce7c7;
+}

@@ -11,7 +11,7 @@ a {text-decoration: none; transition: text-shadow 0.3s ease, transform 0.2s ease
 body {
   background-color: #171716;
   margin: 0px;
-  cursor: url('img/cursore.png'), auto;
+  
 }
 
   #law {}
@@ -129,6 +129,29 @@ a:hover {
 
 a[href*='linkedin'] {
   font-size: 28px;
+  font-weight: bold;
+  color: #2ce7c7;
+}
+
+
+/* Intro section background and cursor */
+section.intro, #about {
+  background-image: url('img/Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  cursor: url('img/cursore.png'), auto;
+}
+
+/* Larger Contact Me title */
+#contact-me h2.titolo-about {
+  font-size: 40px;
+}
+
+/* Larger LinkedIn link */
+a[href*='linkedin'] {
+  font-size: 36px;
   font-weight: bold;
   color: #2ce7c7;
 }

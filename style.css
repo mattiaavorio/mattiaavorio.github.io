@@ -8,7 +8,11 @@ a {text-decoration: none; transition: text-shadow 0.3s ease, transform 0.2s ease
 .ombra:hover {text-shadow: -2px 2px 0px #fa1b59; transition-duration: 0.3s; transition-timing-function: ease-in; cursor: url('img/cursore.gif'), auto; }
 
 
-body {background-color: #171716; margin: 0px;}
+body {
+  background-color: #171716;
+  margin: 0px;
+  cursor: url('img/cursore.png'), auto;
+}
 
   #law {}
         
@@ -22,10 +26,10 @@ body {background-color: #171716; margin: 0px;}
         .dropdown-law-content a:hover{color: #1cd860;}
         .testoaccordion-law {margin-top: 0;}
         .dropdown-law {position: relative; display: inline-block; padding: 10px; margin: 10px;}
-        .dropbtn-law {color: #edf2f2 !important; font-size: 14px; font-family: 'Plus Jakarta Sans'; border: none; /*text-transform: uppercase;*/ cursor: pointer; margin: 0; font-weight: 600; line-height: normal;}
+        .dropbtn-law {color: #edf2f2 !important; font-size: 18px; font-family: 'Plus Jakarta Sans'; border: none; /*text-transform: uppercase;*/ cursor: pointer; margin: 0; font-weight: 600; line-height: normal;}
         .dropbtn-law:hover{color: #2ce7c7 !important;}
         /*.dropdown-law-content {display: none; position: absolute; min-width: 160px; box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); z-index: 20;}
-        .sottomenu-dropdown-law-content {color: #2d2d2d; padding: 10px 14px; text-decoration: none; display: block; font-size: 14px; font-weight: 700; line-height: normal; text-transform: uppercase;}
+        .sottomenu-dropdown-law-content {color: #2d2d2d; padding: 10px 14px; text-decoration: none; display: block; font-size: 18px; font-weight: 700; line-height: normal; text-transform: uppercase;}
         .sottomenu-dropdown-law-content:hover {}*/
         .dropdown-law:hover .dropdown-law-content {display: block;}
         /*.dropdown-law:hover .dropbtn-law {background-color: #1ed760;}*/
@@ -44,7 +48,7 @@ body {background-color: #171716; margin: 0px;}
   #about{background-color: #171716; text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column; min-height: 100vh; }
     .contengo-about{display: flex; flex-wrap: wrap; align-items: center; justify-content: center; text-align: center; width: 100%;}
       .contenuto-about{text-align: center; width: 50%;}
-      .titolo-about{font-size: 40px; color: #2ce7c7; margin: 0; text-shadow: -2px 2px 0px #fa1b59;}
+      .titolo-about{font-size: 26px; color: #2ce7c7; margin: 0; text-shadow: -2px 2px 0px #fa1b59;}
         .font-web{font-family: 'Courier'; font-weight: 100; color: #fa1b59; text-shadow: none;}
         .font-designer{}
       .testo-about{color: white; margin-top: 30px;}
@@ -118,3 +122,13 @@ body {background-color: #171716; margin: 0px;}
   @media only screen and (max-width: 320px) {
     .titolo-intro {font-size: 60px; text-shadow: -4px 4px 0px #fa1b59; line-height: 1;}
   }
+
+a:hover {
+  cursor: url('img/cursore%202.png'), auto;
+}
+
+a[href*='linkedin'] {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2ce7c7;
+}

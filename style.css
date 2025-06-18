@@ -170,7 +170,7 @@ body {
 
 /* Cursor on hover */
 a:hover, .ombra:hover {
-  cursor: url('img/cursore2.png'), auto;
+  cursor: url('img/cursore.png'), auto;
 }
 
 /* Navigation cursor and hover */
@@ -179,7 +179,7 @@ body {
 }
 
 a:hover, .ombra:hover {
-  cursor: url('img/cursore2.png'), auto;
+  cursor: url('img/cursore.png'), auto;
 }
 
 /* Ingrandire bottoni di navigazione iniziali */
